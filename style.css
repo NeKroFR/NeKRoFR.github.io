@@ -2,13 +2,20 @@ body {
     background-color: #101521;
 }
 
+h1{
+    font-family:Impact, sans-serif ;
+    font-weight: lighter
+}
 p{
     font-family:Verdana, sans-serif;
     font-weight: 800
 }
-#main_tittle{
-    text-decoration: underline; 
-}
 .center{
      text-align: center 
 }
+IMG.img_mid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+    
