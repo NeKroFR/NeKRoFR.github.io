@@ -28,8 +28,9 @@ img#logo{
       border-style: solid;
       border-color: rgb(224, 165, 14);
       border-width: 1px;
-      width: 200px;
+      width: 300px;
       margin:0 auto;
+      font-size: 22px;
   }
 .wight_background{
     background-color: white;
