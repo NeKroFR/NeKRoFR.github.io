@@ -118,3 +118,13 @@ IMG.img_project {
     padding: 2px 12px;
     text-decoration: unset;
 }
+
+.desc_link{
+    font-family: 'Lalezar', cursive;
+    color: rgb(15, 53, 53);
+    padding: 2px 12px;
+    text-decoration: unset;
+    font-size: 32px;
+    font-weight: 900;
+
+}
