@@ -39,7 +39,7 @@ img#logo{
 #my_projects{
     text-decoration: underline;
     font-family: 'Anton', sans-serif;
-    font-size: 50px;
+    font-size: 100px;
 }
 #present{
     font-size: 25px;
@@ -49,9 +49,17 @@ img#logo{
     display: none;
 }
 
-#border{
+
+IMG.img_project {
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 5px;
     margin:0 auto;
+}
+
+.title_project{
+    text-indent: 550px;
+    font-size: 54px;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
