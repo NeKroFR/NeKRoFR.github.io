@@ -112,3 +112,9 @@ IMG.img_project {
 
 
 }
+
+.git_projectlink{
+    color: #06f;
+    padding: 2px 12px;
+    text-decoration: unset;
+}
