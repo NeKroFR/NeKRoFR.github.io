@@ -58,7 +58,8 @@ IMG.img_project {
 }
 
 .title_project{
-    text-indent: 550px;
+    position: relative;
+    top: -525px; left: 520px;
     font-size: 54px;
     font-family: 'Josefin Sans', sans-serif;
 
