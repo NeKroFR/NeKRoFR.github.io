@@ -64,3 +64,12 @@ IMG.img_project {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: underline;
 }
+
+.main_project{
+    position: relative;
+    top: -525px; left: 520px;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+    color: rgb(60, 85, 84);
+}
