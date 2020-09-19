@@ -85,13 +85,29 @@ IMG.img_project {
     color: black;
     width: 100px;
     text-decoration: unset;
+    font-family: 'Hind Siliguri', sans-serif;
 
 
+}
+
+.tech_project{
+    position: relative;
+    top: -640px; left: 520px;
+    margin-right: 8px;
+    color: #06f;
+    background-color:  #06f4;
+    padding: 2px 12px;
+    border-radius: 100px;
+    
+    
 }
 
 .blue_flèche{
     position: relative;
     top: -640px; left: 520px;
     width: 100px;
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+
 
 }
