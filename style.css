@@ -68,8 +68,15 @@ IMG.img_project {
 .main_project{
     position: relative;
     top: -525px; left: 520px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(60, 85, 84);
+}
+
+.desc_project{
+    position: relative;
+    top: -525px; left: 520px;
+    font-size: 25px;
     font-family: 'Barlow', sans-serif;
-    font-style: italic;
     color: rgb(60, 85, 84);
 }
