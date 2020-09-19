@@ -80,3 +80,18 @@ IMG.img_project {
     font-family: 'Barlow', sans-serif;
     color: rgb(60, 85, 84);
 }
+
+.git_project{
+    color: black;
+    width: 100px;
+    text-decoration: unset;
+
+
+}
+
+.blue_flèche{
+    position: relative;
+    top: -640px; left: 520px;
+    width: 100px;
+
+}
