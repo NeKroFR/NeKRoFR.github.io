@@ -129,3 +129,9 @@ IMG.img_project {
     font-weight: 900;
 
 }
+
+#comment{
+    color: aqua;
+    position: relative;
+    top: -120px; left: -120px;
+}
