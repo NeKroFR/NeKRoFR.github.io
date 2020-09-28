@@ -32,10 +32,14 @@ img#logo{
       width: 300px;
       margin:0 auto;
       font-size: 22px;
+      position: relative;
+      top: 250px;
   }
 .wite_background{
     background-color: white;
     width: 100%;
+    position: relative;
+    top: 250px;
 }
 #my_projects{
     text-decoration: underline;
@@ -141,4 +145,9 @@ IMG.img_project {
 }
 #ilovethissong{
     color:  rgb(224, 165, 14);
+}
+
+#workinprogress{
+    position: relative;
+    top: 250px; left: -25%;
 }
