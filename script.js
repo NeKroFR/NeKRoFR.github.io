@@ -1,0 +1,1 @@
+alert('ceci est un message en JS');
