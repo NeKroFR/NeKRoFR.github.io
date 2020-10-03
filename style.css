@@ -1,6 +1,11 @@
 body {
     background-color: #101521;
     background-size: cover;
+    width: 100%;
+}
+
+div{
+    width: 100%;
 }
 
 h1{
@@ -150,4 +155,17 @@ IMG.img_project {
 #workinprogress{
     position: relative;
     top: 250px; left: -25%;
+}
+
+#blog_title{
+    position: relative;
+    top: 150px;
+    color: aqua;
+    font-size: 500%; 
+}
+
+#last_article{
+    color: rgb(48, 61, 61);
+    font-size: 500%;
+    text-decoration: underline;
 }
