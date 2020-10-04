@@ -91,6 +91,8 @@ IMG.img_project {
 }
 
 .git_project{
+    position: relative;
+    top: 640px;left: -4%;
     color: black;
     width: 100px;
     text-decoration: unset;
