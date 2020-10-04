@@ -47,9 +47,9 @@ img#logo{
     top: 250px;
 }
 #my_projects{
-    text-decoration: underline;
     font-family: 'Anton', sans-serif;
-    font-size: 100px;
+    font-size: 80px;
+    
 }
 #present{
     font-size: 25px;
@@ -68,25 +68,24 @@ IMG.img_project {
 }
 
 .title_project{
-    position: relative;
-    top: -525px; left: 520px;
-    font-size: 54px;
+    text-align: center;
+    font-size: 250%;
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: underline;
 }
 
 .main_project{
     position: relative;
-    top: -525px; left: 520px;
-    font-size: 40px;
+    left: 23%;
+    font-size: 150%;
     font-family: 'Hind Siliguri', sans-serif;
     color: rgb(60, 85, 84);
 }
 
 .desc_project{
     position: relative;
-    top: -525px; left: 520px;
-    font-size: 25px;
+    left: 23%;
+    font-size: 100%;
     font-family: 'Barlow', sans-serif;
     color: rgb(60, 85, 84);
 }
@@ -102,7 +101,7 @@ IMG.img_project {
 
 .tech_project{
     position: relative;
-    top: -640px; left: 520px;
+    left: 23%;;
     margin-right: 8px;
     color: #06f;
     background-color:  #06f4;
@@ -134,7 +133,7 @@ IMG.img_project {
     color: rgb(15, 53, 53);
     padding: 2px 12px;
     text-decoration: unset;
-    font-size: 32px;
+    font-size: 150%;
     font-weight: 900;
 
 }
