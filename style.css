@@ -140,22 +140,12 @@ IMG.img_project {
 
 }
 
-#comment{
-    color: aqua;
-    position: relative;
-    float: left;
-}
-
-#ytvideo{
-    float: left;
-}
 #ilovethissong{
     color:  rgb(224, 165, 14);
 }
 
 #workinprogress{
-    position: relative;
-    top: 250px; left: -25%;
+    width: 40%;
 }
 
 #blog_title{
