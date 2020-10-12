@@ -45,6 +45,8 @@ img#logo{
     width: 100%;
     position: relative;
     top: 250px;
+    display: flex;
+    flex-direction: row;
 }
 #my_projects{
     font-family: 'Anton', sans-serif;
@@ -167,12 +169,17 @@ IMG.img_project {
     text-decoration: underline;
 }
 
+.main_article {
+    display: flex;
+  }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 10%;
-    position: relative;
-    
+    order: 5;
+    display: flex;
+    flex-direction: row; 
     
 }
   
