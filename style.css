@@ -45,8 +45,7 @@ img#logo{
     width: 100%;
     position: relative;
     top: 250px;
-    display: flex;
-    flex-direction: row;
+
 }
 #my_projects{
     font-family: 'Anton', sans-serif;
