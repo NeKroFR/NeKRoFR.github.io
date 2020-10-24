@@ -6,12 +6,20 @@ body {
 
 
 h1{
+    margin-left: 10px;
     font-family:Impact, sans-serif ;
-    font-weight: lighter
+    font-weight: lighter;
+    font-size: 25px;
 }
 p{
+    margin-left: 10px;
     font-family:Verdana, sans-serif;
-    font-weight: 800;
-    
-    
+    font-weight: 400;  
+    font-size : 15px; 
+}
+
+.white_bg{
+    background-color: white;
+    margin-top: 75px;
+    border-radius: 10px;
 }
