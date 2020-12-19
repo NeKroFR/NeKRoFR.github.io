@@ -226,5 +226,6 @@ p{
 }
 
 #tryhackme{
-
+    height: 0px;
+    margin-top:500px;
 }
