@@ -1,0 +1,31 @@
+.center{
+     text-align: center 
+}
+
+#NOKos{
+    text-align: center;
+    font-size: 250px;
+    text-shadow: rgba(0, 251, 251, 0.418) 0px 0px 15px;
+}
+
+#present{
+    text-align: center;
+    font-size: 150px;
+    text-shadow: rgba(0, 251, 251, 0.418) 0px 0px 15px;
+}
+
+    @media screen and (max-width: 1000px) {
+        #present{
+            text-align: center;
+            font-size: 50px;
+            text-shadow: rgba(0, 251, 251, 0.418) 0px 0px 15px;
+        }
+        #NOKos{
+            text-align: center;
+            font-size: 150px;
+            text-shadow: rgba(0, 251, 251, 0.418) 0px 0px 15px;
+        }
+    }
+
+
+
