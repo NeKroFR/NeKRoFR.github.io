@@ -8,10 +8,22 @@ IMG.img_mid {
     margin-right: auto 
 }
 
+
+#thm{
+    align-items: center;
+}
+
+#git{
+
+}
+
 #egg{
     display: none;
 }
 
+#link{
+    color: aquamarine;
+}
 
 #present{
     font-size: 150px;
