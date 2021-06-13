@@ -11,6 +11,11 @@ p{
      text-align: center 
 }
 
+div{
+	display: inline-block;
+}
+
+
 IMG.img_mid {
     display: block;
     margin-left: auto;
@@ -19,7 +24,7 @@ IMG.img_mid {
 
 
 #media{
-
+	display: inline-block;
 }
 
 #egg{
