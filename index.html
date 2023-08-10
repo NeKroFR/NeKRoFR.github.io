@@ -7,6 +7,13 @@
     <title>NeKroFR | Home</title>
 </head>
 <body>
+  <script>
+    function toggleExpand(button) {
+      const expandedContent = document.getElementById("expandedContent");
+      expandedContent.classList.toggle("hidden");
+      button.innerText = expandedContent.classList.contains("hidden") ? "Learn More" : "Hide";
+    }
+  </script>
   <div id="intro" class="flex flex-col items-center justify-center h-screen bg-gray-100">
     <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/70316327?v=4&h=500&w=500&fit=cover&mask=circle&maxage=7d" class="w-64 h-64 rounded-full mb-4">
     <h1 class="text-7xl font-bold text-blue-500">NeKroFR</h1>
@@ -27,13 +34,26 @@
               <div class="h-4 w-4 rounded-full bg-blue-500 border-4 border-white"></div>
               <div class="h-1 w-1 rounded-full bg-blue-500"></div>
             </div>
-            <div class="bg-white p-4 rounded-lg shadow-md">
+            <div class="bg-white p-4 rounded-lg shadow-md overflow-hidden">
               <time class="text-lg font-bold">2020 - 2023</time>
               <h3 class="text-xl font-bold">Vaugelas High School</h3>
               <em class="text-gray-600">BAC général: mention bien</em>
               <p class="text-gray-700 mt-2">Spécialités: NSI / MATHS<br>Option: MATHS Expertes</p>
+              <button class="mt-2 text-gray-500 hover:text-gray-700 cursor-pointer focus:outline-none" onclick="toggleExpand(this)">Learn More</button>
+              <div class="hidden text-gray-700 mt-2" id="expandedContent">
+                <h2 class="font-semibold text-lg">2021-2022</h2>
+                <ul class="list-disc list-inside ml-6 mt-2">
+                  <li><a href="https://github.com/NeKroFR/NSI.git" class="font-semibold">Projets NSI:</a> IT school projects from 2021 to 2023</li>
+                  <li><a href="https://github.com/NeKroFR/NDC-2022" class="font-semibold">Nuit du code 2022:</a> 6h game jam</li>
+                </ul>
+                <h2 class="font-semibold text-lg mt-4">2022-2023</h2>
+                <ul class="list-disc list-inside ml-6 mt-2">
+                  <li><a href="https://prologin.org/" class="font-semibold">Prologin</a>: I qualified for the regional trials but I wasn't able to get there.</li>
+                  <li><a href="https://github.com/NeKroFR/NDC-2023" class="font-semibold">Nuit du code 2023:</a> 6h game jam</li>
+                </ul>
+              </div>
             </div>
-          </div>
+             </div>
           
           <!-- Timeline Item 2 -->
           <div class="relative">
@@ -46,7 +66,7 @@
               <time class="text-lg font-bold">2023 - 2028</time>
               <h3 class="text-xl font-bold">EPITA: Engineering school in Computer Intelligence</h3>
               <em class="text-gray-600">ENGINEERING MASTER DEGREE</em>
-              <p class="text-gray-700 mt-2">Currently in the first year of the foundation cycle</p>
+              <p class="text-gray-700 mt-2">Currently in the first year of the foundation cycle (prépa intégrée)</p>
             </div>
           </div>
         </div>
