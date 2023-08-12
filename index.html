@@ -9,11 +9,11 @@
 </head>
 <body>
   <script>
-    function toggleExpand(button) {
-      const expandedContent = document.getElementById("expandedContent");
-      expandedContent.classList.toggle("hidden");
-      button.innerText = expandedContent.classList.contains("hidden") ? "Learn More" : "Hide";
-    }
+  function toggleExpand(button, elementId) {
+    const targetContent = document.getElementById(elementId);
+    targetContent.classList.toggle("hidden");
+    button.innerText = targetContent.classList.contains("hidden") ? "Learn More" : "Hide";
+  }
   </script>
   <div id="intro" class="flex flex-col items-center justify-center h-screen bg-gray-100">
     <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/70316327?v=4&h=500&w=500&fit=cover&mask=circle&maxage=7d" class="w-64 h-64 rounded-full mb-4">
@@ -36,8 +36,8 @@
           <h3 class="text-xl font-bold">Vaugelas High School</h3>
           <em class="text-gray-600">BAC général: mention bien</em>
           <p class="text-gray-700 mt-2">Spécialités: NSI / MATHS<br>Option: MATHS Expertes</p>
-          <button class="mt-2 text-gray-500 hover:text-gray-700 cursor-pointer focus:outline-none" onclick="toggleExpand(this)">Learn More</button>
-          <div class="hidden text-gray-700 mt-2" id="expandedContent">
+          <button class="mt-2 text-gray-500 hover:text-gray-700 cursor-pointer focus:outline-none" onclick="toggleExpand(this, 'vaugelas-more')">Learn More</button>
+          <div class="hidden text-gray-700 mt-2" id="vaugelas-more">
             <h2 class="font-semibold text-lg">2021-2022</h2>
             <ul class="list-disc list-inside ml-6 mt-2">
               <li><a href="https://github.com/NeKroFR/NSI.git" class="font-semibold">Projets NSI:</a> IT school projects from 2021 to 2023</li>
@@ -62,8 +62,12 @@
           <time class="text-lg font-bold">2023 - 2028</time>
           <h3 class="text-xl font-bold">EPITA: Engineering school in Computer Intelligence</h3>
           <em class="text-gray-600">ENGINEERING MASTER DEGREE</em>
-          <p class="text-gray-700 mt-2">Currently in the first year of the foundation cycle (prépa intégrée)</p>
-        </div>
+          <p class="text-gray-700 mt-2"><!-- nothing to say for the moment--></p>
+          <button class="mt-2 text-gray-500 hover:text-gray-700 cursor-pointer focus:outline-none" onclick="toggleExpand(this, 'epita-more')">Learn More</button>
+          <div class="hidden text-gray-700 mt-2" id="epita-more">
+            <p class="text-gray-700 mt-2">Currently in the first year of the foundation cycle (prépa intégrée)</p>
+          </div>
+          </div>
       </div>
     </div>
   </div>
