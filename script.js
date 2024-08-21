@@ -23,10 +23,10 @@ window.onload = function() {
     });
 
     (async function() {
-        await shell.printHTML('<span style="color: #fff; font-size: 2em;">Nothing to see here...</span>');
+        await shell.printHTML('<span style="color: #fff; font-size: 2em;">Nothing to see here.</span>');
         while (true) {
             await shell.input('');
-            shell.print(`You are in a sandbox.`);
+            await shell.type(`You are in a sandbox.`, 50);
         }
     })();
 };
